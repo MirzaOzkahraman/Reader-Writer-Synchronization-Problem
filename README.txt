@@ -1,4 +1,3 @@
-
 # Reader-Writer Synchronization Problem
 
 This project provides a solution to the classic Reader-Writer problem in operating systems using Java. The implementation ensures proper synchronization between readers and writers accessing shared resources using semaphores.
