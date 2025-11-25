@@ -1,3 +1,4 @@
+
 # Reader-Writer Synchronization Problem
 
 This project provides a solution to the classic Reader-Writer problem in operating systems using Java. The implementation ensures proper synchronization between readers and writers accessing shared resources using semaphores.
@@ -40,9 +41,9 @@ This solution uses Java's `Semaphore` to synchronize access between readers and 
 
 ### Code Execution Flow
 
-- The 'Main' class initializes a thread pool and creates multiple reader and writer threads.
+- The `Main` class initializes a thread pool and creates multiple reader and writer threads.
 - Readers and writers compete for access to shared data.
-- Synchronization is managed by 'ReadWriteLock', ensuring no race conditions.
+- Synchronization is managed by `ReadWriteLock`, ensuring no race conditions.
 
 ## How It Works
 
@@ -80,14 +81,15 @@ This solution uses Java's `Semaphore` to synchronize access between readers and 
 ### Example Output
 
 The program demonstrates the interaction between multiple readers and writers. Example console output:
-'''
+
+```text
 Reader asks permission
 Thread-1 is reading. Active Readers: 1
 Writer requesting permission
 Thread-2 is writing.
 Thread-1 finished reading. Active Readers: 0
 Thread-2 finished writing.
-'''
+```
 
 ## Project Highlights
 
